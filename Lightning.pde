@@ -22,8 +22,17 @@ void draw()
 		startY = endY;
 
 	}
+  cloud();
 }
 void mousePressed()
 {
 	background((int)(Math.random()*257));
+}
+
+void cloud()
+{
+  fill(255);
+  ellipse(120,50,290,145);
+  ellipse(480, 50, 290, 145);
+  ellipse(310, 50, 290, 145);
 }
