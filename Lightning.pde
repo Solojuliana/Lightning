@@ -1,7 +1,8 @@
 void setup()
 {
+	noLoop();
   size(600,600);
-  strokeWeight(3);
+  strokeWeight(5);
   background(0);
   frameRate(10);
 }
@@ -26,6 +27,7 @@ void draw()
 }
 void mousePressed()
 {
+	redraw();
 	background((int)(Math.random()*257));
 }
 
